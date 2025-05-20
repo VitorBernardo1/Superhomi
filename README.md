@@ -1,33 +1,44 @@
-Sistema de E-commerce com Autenticação
+# Sistema de E-commerce com Autenticação
+
 Projeto desenvolvido por:
+- [Vitor de Almeida Bernardo]
 
-[Vitor de Almeida Bernardo]
 Professor:
+- [Bruno Zolotareff dos Santos]
 
-[Bruno Zolotareff dos Santos] Disciplina:
-[Desenvolvimento Web I]
+Disciplina:
+- [Desenvolvimento Web I]
 
-Funcionalidades Principais
-Sistema completo de login e cadastro
-Carrinho de compras funcional
-Página de pagamento
-Armazenamento de dados no localStorage
-Como Executar
-Clone o repositório
-Abra o arquivo index.html no navegador
-Use os usuários de teste ou cadastre-se
-Usuários de Teste
-Usuário	Senha
-fulano	123456
-ciclano	654321
-beltrano	112233
-Tecnologias Utilizadas
-HTML5
-CSS3
-JavaScript (ES6)
-LocalStorage API
-Código do Sistema de Login Atualizado
-auth.js (atualizado)
+Link:  https://vitorbernardo1.github.io/Superhomi/
+
+## Funcionalidades Principais
+- Sistema completo de login e cadastro
+- Carrinho de compras funcional
+- Página de pagamento
+- Armazenamento de dados no localStorage
+
+## Como Executar
+1. Clone o repositório
+2. Abra o arquivo `index.html` no navegador
+3. Use os usuários de teste ou cadastre-se
+
+## Usuários de Teste
+| Usuário   | Senha  |
+|-----------|--------|
+| fulano    | 123456 |
+| ciclano   | 654321 |
+| beltrano  | 112233 |
+
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- LocalStorage API
+
+## Código do Sistema de Login Atualizado
+
+### auth.js (atualizado)
+```javascript
 // Inicializa usuários padrão se não existirem
 if (!localStorage.getItem('users')) {
     const defaultUsers = [
