@@ -7,8 +7,6 @@ Professor:
 [Bruno Zolotareff dos Santos] Disciplina:
 [Desenvolvimento Web I]
 
-Link: https://vitorbernardo1.github.io/Novo/index.html/
-
 Funcionalidades Principais
 Sistema completo de login e cadastro
 Carrinho de compras funcional
